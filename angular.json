@@ -26,7 +26,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/app/test.js",
+              "dist/ourTranspiled.js"
+            ]
           },
           "configurations": {
             "production": {
