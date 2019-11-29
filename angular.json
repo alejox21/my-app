@@ -27,7 +27,6 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/app/test.js",
               "dist/ourTranspiled.js"
             ]
           },

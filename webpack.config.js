@@ -3,7 +3,6 @@ const path = require("path");
 module.exports = {
     entry: {
         entryOne:[
-            // 'babel-polyfill',
             './our.js'
         ]
     },

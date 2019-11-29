@@ -20,20 +20,28 @@
     "@angular/platform-browser": "~7.1.0",
     "@angular/platform-browser-dynamic": "~7.1.0",
     "@angular/router": "~7.1.0",
+    "babel-preset-env": "^1.7.0",
     "core-js": "^2.5.4",
+    "css-loader": "^3.2.0",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
     "vue": "^2.6.10",
-    "webpack": "^4.41.2",
+    "vue-custom-element": "^3.2.11",
+    "vue-loader": "^14.2.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
     "@angular/cli": "~7.1.4",
     "@angular/compiler-cli": "~7.1.0",
     "@angular/language-service": "~7.1.0",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
+    "babel-loader": "^8.0.6",
     "codelyzer": "~4.5.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
@@ -45,6 +53,8 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "typescript": "~3.1.6"
+    "typescript": "~3.1.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   }
 }

@@ -5,9 +5,9 @@
 
 <script>
 export default {
-    
+
     created(){
-       
+        alert('Hello from the the DEEPER Vue side!');
     }
 }
 </script>
