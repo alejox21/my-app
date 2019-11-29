@@ -1,13 +1,16 @@
-
 <template>
-    <h2>This is anotherComponent (vueComponent's child)!</h2>
+
+    <h2>This is "anotherComponent" (vueComponent's child)!</h2>
+    
 </template>
 
 <script>
 export default {
-
+    props: {
+        parentData: Object,
+    },
     created(){
-        // alert('Hello from the the DEEPER Vue side!');
+        //alert(this.parentData.msg);
     }
 }
 </script>
