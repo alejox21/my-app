@@ -2,13 +2,13 @@
 <template>
 
     <div style="border: 3px dashed green; padding: 5px">
-    I am my-vue-web-comp.<br>
+    I am vue-tag.<br>
       Value received via "msg" prop: {{ msg }}<br>
       <input v-model="text"><button @click="addText">Type something and click me</button>
       <div v-for="t in texts">
         Text: {{ t }}
       </div>
-      <another-component></another-component>
+      <another-component style="border: 3px dashed green; padding: 5px"></another-component>
     </div>
 
 </template>
@@ -24,7 +24,7 @@ export default {
         anotherComponent
     },
     created(){
-        alert('Hello from the Vue side!');
+        // alert('Hello from the Vue side!');
     },
     data() {
         return {
