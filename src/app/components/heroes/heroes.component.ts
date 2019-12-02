@@ -1,10 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-// import Vue from 'vue';
-// import customElement from 'vue-custom-element';
-// import DemoElement from '../heroes/DemoElement.vue';
-
-// Vue.use(customElement);
-// Vue.customElement('demo-basic', DemoElement);
 
 @Component({
   selector: 'app-heroes',
@@ -17,7 +11,7 @@ export class HeroesComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.msg = 'a name';
+    this.msg = 'Hello from Angular!';
   }
 
 }

@@ -3,12 +3,12 @@ const path = require("path");
 module.exports = {
     entry: {
         entryOne:[
-            './our.js'
+            './src/assets/js/entry.js'
         ]
     },
     output: {
-        filename: 'ourTranspiled.js',
-        path: path.join(__dirname, "src/assets")
+        filename: 'transpiled.js',
+        path: path.join(__dirname, "src/assets/js")
     },
     module: {
         rules: [

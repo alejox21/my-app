@@ -27,7 +27,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "dist/ourTranspiled.js"
+              "src/assets/js/transpiled.js"
             ]
           },
           "configurations": {
