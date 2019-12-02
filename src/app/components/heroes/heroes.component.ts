@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 // import Vue from 'vue';
 // import customElement from 'vue-custom-element';
 // import DemoElement from '../heroes/DemoElement.vue';
@@ -12,12 +12,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./heroes.component.css']
 })
 export class HeroesComponent implements OnInit {
-
+  @Input()
+    msg: string;
   constructor() { }
 
   ngOnInit() {
-    
-    
+    this.msg = 'a name';
   }
 
 }
