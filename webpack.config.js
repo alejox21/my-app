@@ -1,6 +1,7 @@
 const path = require("path");
 
 module.exports = {
+    watch: true,
     entry: {
         entryOne:[
             './src/assets/js/entry.js'

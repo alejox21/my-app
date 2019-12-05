@@ -1,6 +1,6 @@
 
 <template>
-  <div style="border: 3px dashed green; padding: 5px; text-align:center">
+  <div style="border: 3px dashed green; padding: 5px; text-align:center; margin-top:2em;">
     <h3>I'm a demo Vue tag</h3>
       {{'this is a message: '+msg}}
     <br />
@@ -22,9 +22,6 @@ export default {
   ],
   components: {
     anotherComponent
-  },
-  created() {
-    // alert('Hello from the Vue side!');
   },
   data() {
     return {
